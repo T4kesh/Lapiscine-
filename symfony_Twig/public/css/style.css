@@ -1,0 +1,30 @@
+header{
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+img{
+    text-align: center;
+    justify-content: center;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+

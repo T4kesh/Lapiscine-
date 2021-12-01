@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block meta_title %}<title>Hello World</title>{% endblock meta_title %}
+    <link rel="stylesheet" href="{{ asset('css/article_css/header_article.style.css') }}">
+</head>
+<body>
+<header class="header_article">
+    <nav class="nav_header_article">
+        <ul>
+            <li><a class="a2" href="{{ path('acceuil') }}">Acueil</a></li>
+            <li><a class="a2" href="https://cdn.radiofrance.fr/s3/cruiser-production/2019/04/6f25bcb4-cd60-4782-b54c-01ae9defaf9a/801x410_5ca096f71f0000c6007f0b01.jpg">Acutalites</a></li>
+            <li><a class="a2" href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    {% block main %}{% endblock main %}
+</main>
+<link rel="stylesheet" href="{{ asset('css/article_css/footer_article.css') }}">
+<footer class="footer_article">
+    <p class="p8">Mention Légales</p>
+    <p class="p8">Politique de Confidentialité</p>
+    <p class="p8">Préférences En Matière de Cookies</p>
+    <p class="p8">Recrutement</p>
+</footer>
+</body>
+</html>

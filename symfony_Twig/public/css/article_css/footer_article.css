@@ -1,0 +1,23 @@
+.footer_article{
+    height: 7rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.p8{
+    color: white;
+    font-family: Roboto;
+    cursor: pointer;
+    border: 2px;
+    border-right: solid white 2px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+.p8:hover{
+    color: orange;
+}

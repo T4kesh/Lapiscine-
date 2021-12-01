@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    height: 4rem;
+    width: auto;
+}
+
+.p8{
+    font-family: Roboto;
+    color: black;
+    cursor: pointer;
+
+}
+
+.p8:hover{
+    color: white;
+}

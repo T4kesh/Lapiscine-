@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.a2 {
+    color: white;
+    text-decoration: none;
+    margin: 7px;
+    border-right: white solid 2px;
+    padding-right: 10px;
+    font-family: Roboto;
+    font-size: larger;
+}
+
+.a2:hover{
+    color: orange;
+}
+
+.nav_header_article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    height: 5rem;
+}

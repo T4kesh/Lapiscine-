@@ -1,0 +1,64 @@
+h1{
+    color: purple;
+}
+
+body{
+    background-color: white;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.article1 {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: Roboto;
+    color: black;
+}
+
+p{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: Roboto;
+}
+
+
+.indispo{
+    color: black;
+    background-color: red;
+    border-radius: 30px;
+}
+#dispo{
+    color: white;
+    background-color: green;
+    border-radius: 30px;
+    width: min-content;
+}
+.voirplus{
+    text-decoration: none;
+    width: min-content;
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+}
+
+.btn2{
+    text-decoration: none;
+    color: black;
+    border: solid black 2px;
+    background-color: white;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-size: 130%;
+    padding: 4px;
+
+}
+
+.btn2:hover{
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,21 @@
+
+{% extends 'base.html.twig' %}
+{% block meta_title %}<title>Liste d'Articles</title>{% endblock meta_title %}
+{% block main %}
+    <!-- la méthode black me permet de selectionner la partie que je souhaite modifié dans mon squellete -->
+    <!-- grace a extend j accede a ma page twig base -->
+    <link rel="stylesheet" href="{{ asset('css/article.style.css') }}">
+            {% for article in articles %}
+                {% if article.isPublished %}
+                    <h1>{{ article.title }}</h1>
+                    <img src="{{ article.image }}" alt="{{ article.title }}">
+                    <p>{{ article.content }}</p>
+                    <p id="dispo">Disponible</p>
+                    <a class="voirplus" href="{{ path('articles',{'id': article.id}) }}">Voir Plus</a>
+                {% else %}
+                    <p id="Aindispo">{{ article.title }}</p>
+                    <p>Cette Article est <span class="indispo">Indisponible</span></p>
+                {% endif %}
+            {% endfor %}
+{% endblock main %}
+

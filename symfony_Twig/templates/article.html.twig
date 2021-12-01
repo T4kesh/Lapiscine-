@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+{% block meta_title %}<title>{{ article.title }}</title>{% endblock meta_title %}
+{% block main %}
+    <link rel="stylesheet" href="{{ asset('css/article.style.css') }}">
+    <article class="article1">
+        <h1 class="h1_article">{{ article.title }}</h1>
+        <img src="{{ article.image }}" alt="{{ article.title }}">
+        <p class="p_article">{{ article.content }}</p>
+        <a class="btn2" href="{{ path('liste_articles') }}">Retour</a>
+    </article>
+{% endblock main %}
+

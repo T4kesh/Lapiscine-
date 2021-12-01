@@ -1,0 +1,1 @@
+CREATE TABLE `creation` ( `id` INT NOT NULL AUTO_INCREMENT , `titre` VARCHAR(60) NOT NULL , `description` VARCHAR(512) NULL , `fichier` VARCHAR(255) NOT NULL , `galerie` VARCHAR(255) NULL , `date_creation` DATE NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

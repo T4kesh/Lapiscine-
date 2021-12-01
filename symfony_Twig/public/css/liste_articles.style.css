@@ -1,0 +1,106 @@
+h1{
+    color: purple;
+}
+
+body{
+    background-color: white;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.a2 {
+    color: black;
+    text-decoration: none;
+    margin: 7px;
+    border-right: black solid 2px;
+    padding-right: 10px;
+    font-family: Roboto;
+    font-size: larger;
+}
+
+.a2:hover{
+    color: orange;
+}
+
+
+.article1 {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: Roboto;
+    color: black;
+}
+
+p{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: Roboto;
+}
+
+footer{
+    height: 7rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.p8{
+    color: white;
+    font-family: Roboto;
+    cursor: pointer;
+    border: 2px;
+    border-right: solid white 2px;
+    padding-right: 14px;
+    padding-left: 14px;
+
+
+}
+
+.p8:hover{
+    color: orange;
+}
+
+.cascade{
+    display: flex;
+}
+
+span.indispo{
+    color: red;
+    width: min-content;
+    cursor: pointer;
+
+
+}
+
+#dispo{
+    color:green;
+    background-color: rgb(198,236,185);
+    border: solid 2px black   ;
+    width: min-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 30px  ;
+    cursor: pointer;
+
+}
+#dispo:hover{
+    background-color: white;
+}
+
+#btn{
+
+}
